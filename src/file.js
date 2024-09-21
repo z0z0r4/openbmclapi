@@ -10,4 +10,5 @@ export function validateFile(buffer, checkSum) {
     hash.update(buffer);
     return hash.digest('hex') === checkSum;
 }
+
 //# sourceMappingURL=file.js.map
