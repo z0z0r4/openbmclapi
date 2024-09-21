@@ -25,8 +25,8 @@ jobs:
           context: .
           push: true
           tags: |
-            bangbang93/openbmclapi
-            bangbang93/openbmclapi:${{env.RELEASE_VERSION}}
+            z0z0r4/openbmclapi
+            z0z0r4/openbmclapi:${{env.RELEASE_VERSION}}
           platforms: linux/amd64,linux/arm64
           cache-from: type=gha
           cache-to: type=gha,mode=max
